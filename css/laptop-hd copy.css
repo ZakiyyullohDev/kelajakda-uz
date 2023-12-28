@@ -1,0 +1,86 @@
+@media (max-width: 1024px) {
+    .container {
+        width: 1024px;
+        max-width: 1024px;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .head-nav {
+        display: none;
+    }
+
+    .hero {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        padding-top: 80px;
+        padding-bottom: 75px;
+        background-size: contain;
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: contain 512px 448px;
+        background-image: url(/img/saxib-axmatov\ \(2\).png);
+    }
+
+    .hero-right {
+        height: 448px;
+    }
+
+    .main-hero-ul {
+        margin-bottom: 20px;
+    }
+
+    .main-hero-li {
+        max-width: 312px;
+    }
+
+    .main-starter-li {
+        max-width: 229px;
+    }
+
+    .main-center-img {
+        width: 216px;
+        height: 220px;
+    }
+
+    .project {
+        width: 478px;
+    }
+
+    .project-1 {
+        width: 229px;
+    }
+
+    .what-learn-li {
+        max-height: 275px;
+    }
+
+    .moduls-li {
+        max-width: 478px;
+    }
+
+    .moduls-box {
+        height: 320px!important;
+    }
+
+    .course-details-ul {
+        flex-wrap: wrap;
+    }
+
+    .course-details-li:nth-child(1) {
+        margin-bottom: 2rem;
+    }
+
+    .course-details-box {
+        width: 478px;
+    }
+
+    .smm-img {
+        width: 456px;
+        height: 321px;
+    }
+}

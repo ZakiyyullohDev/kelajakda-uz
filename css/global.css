@@ -65,13 +65,11 @@ img {
     margin: 0;
     padding: 0;
     display: flex;
-    /* margin-bottom: 85px; */
     align-items: center;
     justify-content: space-between;
     padding-top: 1.25rem;
     padding-left: 0;
     padding-right: 0;
-    /* padding-bottom: 82px; */
 }
 
 .logo-a {
@@ -158,7 +156,9 @@ img {
     margin: 0;
     padding: 0;
     display: flex;
+    padding-top: 80px;
     align-items: center;
+    padding-bottom: 75px;
     background-size: contain;
     background-position: right;
     background-repeat: no-repeat;
@@ -176,7 +176,7 @@ img {
 
 .hero-right {
     /* width: 760px; */
-    height: 665px;
+    /* height: 665px; */
 }
 
 .starter-p {
