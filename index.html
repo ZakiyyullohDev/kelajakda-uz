@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kelajakda.uz</title>
     <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/laptop-hd.css">
     <link rel="icon" href="img/favicon.ico">
 </head>
 <body>
@@ -16,21 +17,21 @@
                 <nav class="head-nav">
                     <ul class="head-ul">
                         <li class="head-li">
-                            <a class="head-li-a" href="#">Kurs muallifi</a>
+                            <a class="head-li-a" id="author" href="#author">Kurs muallifi</a>
                         </li>
                         <li class="head-li">
-                            <a class="head-li-a" href="#">Nimalar o‘rganasiz</a>
+                            <a class="head-li-a" id="whatWeLearn" href="#what-we-learn">Nimalar o‘rganasiz</a>
                         </li>
                         <li class="head-li">
-                            <a class="head-li-a" href="#">Fidbeklar</a>
+                            <a class="head-li-a" id="feedbacks" href="#feedbacks">Fidbeklar</a>
                         </li>
                         <li class="head-li">
-                            <a class="head-li-a" href="#">Modullar</a>
+                            <a class="head-li-a" id="moduls" href="#modules">Modullar</a>
                         </li>
                         <li class="head-li">
-                            <a class="head-li-a" href="#">Tariflar</a>
+                            <a class="head-li-a" id="plans" href="#plans">Tariflar</a>
                         </li>
-                    </ul>
+                    </ul>   
                 </nav>
                 
                 <ul class="head-right-ul">
@@ -50,7 +51,8 @@
                     <p class="info-p">Bu kurs orqali qanday qilib birgina telefon orqali kreativ <br> videolar tayyorlashni o’rganasiz. Kurs so’ngida zamonaviy <br> va serdaromad kasb egasiga aylanasiz</p>
                     <a class="take-info-btn" href="https://t.me/Sakhibzhan">Batafsil ma'lumot olish</a>
                 </div>
-                <img class="saxib-axmatov" src="img/Saxib-Axmatov-img.png" alt="Saxib Axmatov" width="760" height="665">
+                <div class="hero-right"></div>
+                <!-- <img class="saxib-axmatov" src="img/Saxib-Axmatov-img.png" alt="Saxib Axmatov" width="760" height="665"> -->
             </div>
             
         </div>
@@ -126,15 +128,15 @@
                 <ul class="main-center-ul">
                     <li class="main-center-li">
                         <div class="main-center-box">
-                            <h3 class="main-center-h3">Jami 8 ta qimmat brend <br> bilan ishlash imkoniyati</h3>
-                            <p class="main-center-p">Portfolioingizni 20 ta video bilan <br> boyitasiz</p>
+                            <h3 class="main-center-h3">Jami 8 ta qimmat brend bilan ishlash imkoniyati</h3>
+                            <p class="main-center-p">Portfolioingizni 20 ta video bilan boyitasiz</p>
                         </div>
                         <img class="main-center-img" src="img/img-1.jpeg" alt="Jami 8 ta qimmat brend bilan ishlash imkoniyati" width="255" height="200">
                     </li>
                     <li class="main-center-li">
                         <div class="main-center-box">
-                            <h3 class="main-center-h3">Portfolioingizni 20 ta <br> video bilan boyitasiz</h3>
-                            <p class="main-center-p">Jami 8 ta qimmat brend bilan ishlash <br> imkoniyati</p>
+                            <h3 class="main-center-h3">Portfolioingizni 20 ta video bilan boyitasiz</h3>
+                            <p class="main-center-p">Jami 8 ta qimmat brend bilan ishlash imkoniyati</p>
                         </div>
                         <img class="main-center-img" src="img/img-2.jpeg" alt="Portfolioingizni 20 ta video bilan boyitasiz" width="255" height="200">
                     </li>
@@ -189,26 +191,28 @@
                 <div class="author-left">
                     <h4 class="course-author">Kurs muallifi</h4>
                     <h1 class="author-name">Saxib <br> Axmatov</h1>
-                    <ul class="author-info-ul">
-                        <li class="author-info-li">
-                            <h2 class="author-project">8+</h2>
-                            <p class="author-info-p">Yil Video Production tajriba</p>
-                        </li>
-                        <li class="author-info-li">
-                            <h2 class="author-project">50+</h2>
-                            <p class="author-info-p">Yakunlangan yirik loyihalar</p>
-                        </li>
-                    </ul>
-                    <ul class="author-info-ul">
-                        <li class="author-info-li">
-                            <h2 class="author-project">150+</h2>
-                            <p class="author-info-p">Xursand shogirdlar</p>
-                        </li>
-                        <li class="author-info-li">
-                            <h2 class="author-project">Kelajakda.uz</h2>
-                            <p class="author-info-p">Online maktabi asoschisi</p>
-                        </li>
-                    </ul>
+                    <div class="author-info-ul-wrapper">
+                        <ul class="author-info-ul">
+                            <li class="author-info-li">
+                                <h2 class="author-project-number">8+</h2>
+                                <p class="author-info-p">Yil Video Production tajriba</p>
+                            </li>
+                            <li class="author-info-li">
+                                <h2 class="author-project-number">50+</h2>
+                                <p class="author-info-p">Yakunlangan yirik loyihalar</p>
+                            </li>
+                        </ul>
+                        <ul class="author-info-ul">
+                            <li class="author-info-li">
+                                <h2 class="author-project-number">150+</h2>
+                                <p class="author-info-p">Xursand shogirdlar</p>
+                            </li>
+                            <li class="author-info-li">
+                                <h2 class="author-project">Kelajakda.uz</h2>
+                                <p class="author-info-p">Online maktabi asoschisi</p>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
                 <a href="https://www.youtube.com/watch?v=-W target=" target="_blank">
                     <img class="info-video" src="img/infoimage.jpg" alt="Saxib Axmatov" width="480" height="600">
@@ -283,35 +287,35 @@
                 <ul class="what-learn-ul">
                     <li class="what-learn-li">
                         <span class="what-learn-number">01</span>
-                        <p class="what-learn-info">Instagramga trenddagi <br> videolar tayyorlash</p>
-                        <p class="what-learn-info-2">Instagram uchun trenddagi reels <br> videolarni olish va montaj qilishni <br> o’rganasiz</p>
+                        <p class="what-learn-info">Instagramga trenddagi videolar tayyorlash</p>
+                        <p class="what-learn-info-2">Instagram uchun trenddagi reels videolarni olish va montaj qilishni o’rganasiz</p>
                     </li>
                     <li class="what-learn-li">
                         <span class="what-learn-number">02</span>
-                        <p class="what-learn-info">Telefonda professional <br> videolar olish</p>
-                        <p class="what-learn-info-2">Telefonda syomka qilish qoidalari, rakurs <br> va yorug’lik bilan ishlashni o’rganasiz</p>
+                        <p class="what-learn-info">Telefonda professional videolar olish</p>
+                        <p class="what-learn-info-2">Telefonda syomka qilish qoidalari, rakurs va yorug’lik bilan ishlashni o’rganasiz</p>
                     </li>
                     <li class="what-learn-li">
                         <span class="what-learn-number">03</span>
-                        <p class="what-learn-info">Tekstlar dizayni va <br> ularga xarakat qo’shish</p>
-                        <p class="what-learn-info-2">Videolarga mos tekstlar yozishni va <br> yozilgan tekstlarni animatsiya orqali <br> boyitishni o’rganasiz</p>
+                        <p class="what-learn-info">Tekstlar dizayni va ularga xarakat qo’shish</p>
+                        <p class="what-learn-info-2">Videolarga mos tekstlar yozishni va yozilgan tekstlarni animatsiya orqali boyitishni o’rganasiz</p>
                     </li>
                 </ul>
                 <ul class="what-learn-ul-2">
                     <li class="what-learn-li">
                         <span class="what-learn-number">04</span>
-                        <p class="what-learn-info">Sun’iy intellekt <br> yordamida subtitrlar</p>
-                        <p class="what-learn-info-2">O’zbekcha subtitrlarni sun’iy intellekt <br> yordamida tez va oson qo’yishni <br> o’rganasiz</p>
+                        <p class="what-learn-info">Sun’iy intellekt yordamida subtitrlar</p>
+                        <p class="what-learn-info-2">O’zbekcha subtitrlarni sun’iy intellekt yordamida tez va oson qo’yishni o’rganasiz</p>
                     </li>
                     <li class="what-learn-li">
                         <span class="what-learn-number">05</span>
-                        <p class="what-learn-info">Maskalar bilan ishlash <br> qoidalari</p>
-                        <p class="what-learn-info-2">Ko’plab kreativ idealaringizni maskalar <br> orqali tayyorlash orqali videolaringizni <br> ajralib turadigan qilishni o’rganasiz</p>
+                        <p class="what-learn-info">Maskalar bilan ishlash qoidalari</p>
+                        <p class="what-learn-info-2">Ko’plab kreativ idealaringizni maskalar orqali tayyorlash orqali videolaringizni ajralib turadigan qilishni o’rganasiz</p>
                     </li>
                     <li class="what-learn-li">
                         <span class="what-learn-number">06</span>
-                        <p class="what-learn-info">Videolarni qimmatli <br> qiladigan perexodlar</p>
-                        <p class="what-learn-info-2">Videolardagi zerikarli kadrlarni bir biriga <br> chiroyli ulashni va ularni kreativ qilishni <br> o’rganasiz</p>
+                        <p class="what-learn-info">Videolarni qimmatli qiladigan perexodlar</p>
+                        <p class="what-learn-info-2">Videolardagi zerikarli kadrlarni bir biriga chiroyli ulashni va ularni kreativ qilishni o’rganasiz</p>
                     </li>
                 </ul>
                 <div class="take-info-btn-wrapper">
@@ -352,262 +356,231 @@
                             <img class="speaker-img" src="img/guest1.png" alt="Java Rasulov">
                             <h3 class="speakers-name">Java Rasulov</h3>
                             <p class="speaker-info">Instagramda 1 million obunachilarga <br> ega bloger</p>
-                        </div>
-                    </li>
-                    <li class="speakers-li">
-                        <div class="speakers-box">
-                            <img class="speaker-img" src="img/guest2.png" alt="Java Rasulov">
-                            <h3 class="speakers-name">Abdulla Shayx</h3>
-                            <p class="speaker-info">Shaxsiy brend qurish bo’yicha <br> mutaxassis</p>
-                        </div>
-                    </li>
-                    <li class="speakers-li">
-                        <div class="speakers-box">
-                            <img class="speaker-img" src="img/guest3.png" alt="Java Rasulov">
-                            <h3 class="speakers-name">Komron Yo’ldoshev</h3>
-                            <p class="speaker-info">Sotuvlar va marketing bo’yicha <br> mutaxassis</p>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            
-            <div class="moduls">
-                <h1 class="moduls-h1">KURS MODULLARI</h1>
-                <ul class="moduls-ul">
-                    <li class="moduls-li">
-                        <div class="moduls-box">
-                            <span class="modul-number">Modul 1</span>
-                            <h1 class="modul-title">Mobilografiyaga kirish</h1>
-                            <p class="modul-info">Natija: Videolar tayyorlashda umumiy <br> tushunchalar</p>
-                        </div>
-                    </li>
-                    <li class="moduls-li">
-                        <div class="moduls-box">
-                            <span class="modul-number">Modul 2</span>
-                            <h1 class="modul-title">Musiqa orqali videolar sifatini bir <br> necha barobarga oshirish</h1>
-                            <p class="modul-info">Natija: Videolarga mos musiqa tanlash va <br> musiqa bilan ishlashdagi muammolarni <br> yengish</p>
-                        </div>
-                    </li>
-                </ul>
-                <ul class="moduls-ul">
-                    <li class="moduls-li">
-                        <div class="moduls-box">
-                            <span class="modul-number">Modul 3</span>
-                            <h1 class="modul-title">Videolarni qimmat qiladigan perexodlar bilan ishlash</h1>
-                            <p class="modul-info">Natija: Videolardagi zerikarli kadrlarni bir biriga chiroyli ulashni o’rganamiz</p>
-                        </div>
-                    </li>
-                    <li class="moduls-li">
-                        <div class="moduls-box">
-                            <span class="modul-number">Modul 4</span>
-                            <h1 class="modul-title">Tekstlar dizayni va ularga harakatlar qo’shish</h1>
-                            <p class="modul-info">Natija: Videolarga mos tekst yozishni va yozilgan tekstlarni animatsiya orqali boyita olishni o’rganamiz</p>
-                        </div>
-                    </li>
-                </ul>
-                <ul class="moduls-ul">
-                    <li class="moduls-li">
-                        <div class="moduls-box">
-                            <span class="modul-number">Modul 5</span>
-                            <h1 class="modul-title">Instagram uchun trenddagi reels videolar tayyorlash</h1>
-                            <p class="modul-info">Natija: Instagramdagi ko’plab videolarni takrorlay olish ko’nikmasiga ega bo’lasiz</p>
-                        </div>
-                    </li>
-                    <li class="moduls-li">
-                        <div class="moduls-box">
-                            <span class="modul-number">Modul 6</span>
-                            <h1 class="modul-title">Videolarni ko’zga yoqimli qilish</h1>
-                            <p class="modul-info">Natija: Qaltiragan videolarni montajda to’g’irlashni o’rganamiz</p>
-                        </div>
-                    </li>
-                </ul>
-                <ul class="moduls-ul">
-                    <li class="moduls-li">
-                        <div class="moduls-box">
-                            <span class="modul-number">Modul 7</span>
-                            <h1 class="modul-title">Yashil fon bilan to’g’ri ishlash</h1>
-                            <p class="modul-info">Natija: Videolani qiziqarli fonlar, grafikalar bilan boyitish</p>
-                        </div>
-                    </li>
-                    <li class="moduls-li">
-                        <div class="moduls-box">
-                            <span class="modul-number">Modul 8</span>
-                            <h1 class="modul-title">Tochkalar bilan ishlash</h1>
-                            <p class="modul-info">Natija: Videolarga tochkalar qo’yish yordamida ularni qiziqarli qilish</p>
-                        </div>
-                    </li>
-                </ul>
-                <ul class="moduls-ul">
-                    <li class="moduls-li">
-                        <div class="moduls-box">
-                            <span class="modul-number">Modul 9</span>
-                            <h1 class="modul-title">O’zbekcha subtitrni sun’iy intellekt yordamida yozish</h1>
-                            <p class="modul-info">Subtitrlarni tez va oson qo’yishni o’rganamiz</p>
-                        </div>
-                    </li>
-                    <li class="moduls-li">
-                        <div class="moduls-box">
-                            <span class="modul-number">Modul 10</span>
-                            <h1 class="modul-title">Maskalar bilan ishlash</h1>
-                            <p class="modul-info">Natija: Kreativ idealaringizni maskalar orqali tayyorlash</p>
-                        </div>
-                    </li>
-                </ul>
-                <ul class="moduls-ul">
-                    <li class="moduls-li">
-                        <div class="moduls-box">
-                            <span class="modul-number">Modul 11</span>
-                            <h1 class="modul-title">Ranglar bilan ishlash</h1>
-                            <p class="modul-info">Natija: Videolarga to’g’ri rang</p>
-                        </div>
-                    </li>
-                    <li class="moduls-li">
-                        <div class="moduls-box">
-                            <span class="modul-number">Modul 12</span>
-                            <h1 class="modul-title">“Udalit fon” effekti orqali professional video tayyorlash</h1>
-                            <p class="modul-info">Natija: Odam orqasiga har xil dizaynlar, animatsiyalar, grafikalar bilan boyitish</p>
-                        </div>
-                    </li>
-                </ul>
-                <ul class="moduls-ul">
-                    <li class="moduls-li">
-                        <div class="moduls-box-2">
-                            <span class="modul-number">Modul 13</span>
-                            <h1 class="modul-title">Videolarga turli xil trenddagi effektlar qo’llash</h1>
-                            <p class="modul-info">Natija: Videolarni kreativ effektlar orqali ajralib turadigan qilish</p>
-                        </div>
-                    </li>
-                    <li class="moduls-li">
-                        <div class="moduls-box-2">
-                            <span class="modul-number">Modul 14</span>
-                            <h1 class="modul-title">Telefonda professional kameraga tenglasha oladigan videolar olish</h1>
-                            <p class="modul-info">Natija: Telefonda syomka qilishdagi barcha muammolar yechiladi, svetlar bilan ishlashni o’rganamiz</p>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            
-        </div>
-    </div>
-    
-    <div class="course-details">
-        <div class="container-2">
-            <h1 class="course-details-h1">KURS TAFSILOTLARI</h1>
-            <ul class="course-details-ul">
-                <li class="course-details-li">
-                    <div class="course-details-box">
-                        <div class="course-info-ul-wrapper">
-                            <h1 class="course-status">Standart</h1>
-                            <ul class="course-info-ul">
-                                <li class="course-info-li">
-                                    <span class="course-info">8 haftalik online darslik</span>
-                                </li>
-                                <li class="course-info-li">
-                                    <span class="course-info">Uy ishlari berish</span>
-                                </li>
-                                <li class="course-info-li">
-                                    <span class="course-info">Kurs davomida savol javob uchun <br> telegram umumiy guruhga qo’shish</span>
+                        </li>
+                        <li class="speakers-li">
+                            <div class="speakers-box">
+                                <img class="speaker-img" src="img/guest2.png" alt="Java Rasulov">
+                                <h3 class="speakers-name">Abdulla Shayx</h3>
+                                <p class="speaker-info">Shaxsiy brend qurish bo’yicha <br> mutaxassis</p>
+                            </li>
+                            <li class="speakers-li">
+                                <div class="speakers-box">
+                                    <img class="speaker-img" src="img/guest3.png" alt="Java Rasulov">
+                                    <h3 class="speakers-name">Komron Yo’ldoshev</h3>
+                                    <p class="speaker-info">Sotuvlar va marketing bo’yicha <br> mutaxassis</p>
                                 </li>
                             </ul>
                         </div>
-                        <a href="https://t.me/Sakhibzhan" class="take-info-btn-1">Batafsil ma'lumot olish</a>
-                    </div>
-                </li>
-                <li class="course-details-li">
-                    <div class="course-details-box">
-                        <div class="course-info-ul-wrapper">
-                            <h1 class="course-status-2">Premium</h1>
-                            <ul class="course-info-ul">
-                                <li class="course-info-li opacity-06">
-                                    <span class="course-info">8 haftalik online darslik</span>
+                        
+                        <div class="moduls">
+                            <h1 class="moduls-h1">KURS MODULLARI</h1>
+                            <ul class="moduls-ul">
+                                <li class="moduls-li">
+                                    <span class="modul-number">Modul 1</span>
+                                    <h1 class="modul-title">Mobilografiyaga kirish</h1>
+                                    <p class="modul-info">Natija: Videolar tayyorlashda umumiy tushunchalar</p>
                                 </li>
-                                <li class="course-info-li opacity-06">
-                                    <span class="course-info">Uy ishlari berish</span>
+                                <li class="moduls-li">
+                                    <span class="modul-number">Modul 2</span>
+                                    <h1 class="modul-title">Musiqa orqali videolar sifatini bir necha barobarga oshirish</h1>
+                                    <p class="modul-info">Natija: Videolarga mos musiqa tanlash va musiqa bilan ishlashdagi muammolarni yengish</p>
                                 </li>
-                                <li class="course-info-li opacity-06">
-                                    <span class="course-info">Kurs davomida savol javob uchun <br> telegram umumiy guruhga qo’shish</span>
+                            </ul>
+                            <ul class="moduls-ul">
+                                <li class="moduls-li">
+                                    <span class="modul-number">Modul 3</span>
+                                    <h1 class="modul-title">Videolarni qimmat qiladigan perexodlar bilan ishlash</h1>
+                                    <p class="modul-info">Natija: Videolardagi zerikarli kadrlarni bir biriga chiroyli ulashni o’rganamiz</p>
                                 </li>
-                                <li class="course-info-li">
-                                    <span class="course-info">Guruh uchun alohida kuratorlar <br> biriktirish</span>
+                                <li class="moduls-li">
+                                    <span class="modul-number">Modul 4</span>
+                                    <h1 class="modul-title">Tekstlar dizayni va ularga harakatlar qo’shish</h1>
+                                    <p class="modul-info">Natija: Videolarga mos tekst yozishni va yozilgan tekstlarni animatsiya orqali boyita olishni o’rganamiz</p>
                                 </li>
-                                <li class="course-info-li">
-                                    <span class="course-info">Har hafta jonli efirlar o’tkazish</span>
+                            </ul>
+                            <ul class="moduls-ul">
+                                <li class="moduls-li">
+                                    <span class="modul-number">Modul 5</span>
+                                    <h1 class="modul-title">Instagram uchun trenddagi reels videolar tayyorlash</h1>
+                                    <p class="modul-info">Natija: Instagramdagi ko’plab videolarni takrorlay olish ko’nikmasiga ega bo’lasiz</p>
                                 </li>
-                                <li class="course-info-li">
-                                    <span class="course-info">Kurs so’ngida sertifikat qo’lga kiritish</span>
+                                <li class="moduls-li">
+                                    <span class="modul-number">Modul 6</span>
+                                    <h1 class="modul-title">Videolarni ko’zga yoqimli qilish</h1>
+                                    <p class="modul-info">Natija: Qaltiragan videolarni montajda to’g’irlashni o’rganamiz</p>
                                 </li>
-                                <li class="course-info-li">
-                                    <span class="course-info">Kurs foyda bermasa 30 kunda pulni <br> qaytarib berish</span>
+                            </ul>
+                            <ul class="moduls-ul">
+                                <li class="moduls-li">
+                                    <span class="modul-number">Modul 7</span>
+                                    <h1 class="modul-title">Yashil fon bilan to’g’ri ishlash</h1>
+                                    <p class="modul-info">Natija: Videolani qiziqarli fonlar, grafikalar bilan boyitish</p>
+                                </li>
+                                <li class="moduls-li">
+                                    <span class="modul-number">Modul 8</span>
+                                    <h1 class="modul-title">Tochkalar bilan ishlash</h1>
+                                    <p class="modul-info">Natija: Videolarga tochkalar qo’yish yordamida ularni qiziqarli qilish</p>
+                                </li>
+                            </ul>
+                            <ul class="moduls-ul">
+                                <li class="moduls-li">
+                                    <span class="modul-number">Modul 9</span>
+                                    <h1 class="modul-title">O’zbekcha subtitrni sun’iy intellekt yordamida yozish</h1>
+                                    <p class="modul-info">Subtitrlarni tez va oson qo’yishni o’rganamiz</p>
+                                </li>
+                                <li class="moduls-li">
+                                    <span class="modul-number">Modul 10</span>
+                                    <h1 class="modul-title">Maskalar bilan ishlash</h1>
+                                    <p class="modul-info">Natija: Kreativ idealaringizni maskalar orqali tayyorlash</p>
+                                </li>
+                            </ul>
+                            <ul class="moduls-ul">
+                                <li class="moduls-li">
+                                    <span class="modul-number">Modul 11</span>
+                                    <h1 class="modul-title">Ranglar bilan ishlash</h1>
+                                    <p class="modul-info">Natija: Videolarga to’g’ri rang</p>
+                                </li>
+                                <li class="moduls-li">
+                                    <span class="modul-number">Modul 12</span>
+                                    <h1 class="modul-title">“Udalit fon” effekti orqali professional video tayyorlash</h1>
+                                    <p class="modul-info">Natija: Odam orqasiga har xil dizaynlar, animatsiyalar, grafikalar bilan boyitish</p>
+                                </li>
+                            </ul>
+                            <ul class="moduls-ul">
+                                <li class="moduls-li">
+                                    <span class="modul-number">Modul 13</span>
+                                    <h1 class="modul-title">Videolarga turli xil trenddagi effektlar qo’llash</h1>
+                                    <p class="modul-info">Natija: Videolarni kreativ effektlar orqali ajralib turadigan qilish</p>
+                                </li>
+                                <li class="moduls-li">
+                                    <span class="modul-number">Modul 14</span>
+                                    <h1 class="modul-title">Telefonda professional kameraga tenglasha oladigan videolar olish</h1>
+                                    <p class="modul-info">Natija: Telefonda syomka qilishdagi barcha muammolar yechiladi, svetlar bilan ishlashni o’rganamiz</p>
                                 </li>
                             </ul>
                         </div>
-                        <a href="https://t.me/Sakhibzhan" class="take-info-btn-2">Batafsil ma'lumot olish</a>
+                        
                     </div>
-                </li>
-                <li class="course-details-li">
-                    <div class="course-details-box">
-                        <div class="course-info-ul-wrapper">
-                            <h1 class="course-status-3">Vip</h1>
-                            <ul class="course-info-ul">
-                                <li class="course-info-li opacity-06">
-                                    <span class="course-info">8 haftalik online darslik</span>
-                                </li>
-                                <li class="course-info-li opacity-06">
-                                    <span class="course-info">Uy ishlari berish</span>
-                                </li>
-                                <li class="course-info-li opacity-06">
-                                    <span class="course-info">Kurs davomida savol javob uchun <br> telegram umumiy guruhga qo’shish</span>
-                                </li>
-                                <li class="course-info-li opacity-06">
-                                    <span class="course-info">Guruh uchun alohida kuratorlar <br> biriktirish</span>
-                                </li>
-                                <li class="course-info-li opacity-06">
-                                    <span class="course-info">Har hafta jonli efirlar o’tkazish</span>
-                                </li>
-                                <li class="course-info-li opacity-06">
-                                    <span class="course-info">Kurs so’ngida sertifikat qo’lga kiritish</span>
-                                </li>
-                                <li class="course-info-li opacity-06">
-                                    <span class="course-info">Kurs foyda bermasa 30 kunda pulni <br> qaytarib berish</span>
-                                </li>
-                                <li class="course-info-li">
-                                    <span class="course-info">Shaxsan o’zim bilan bir haftada bir jonli <br> efir</span>
-                                </li>
-                                <li class="course-info-li">
-                                    <span class="course-info">Kurs tugaganidan so’ng ham 1 oylik <br> kuratorlar bilan ishlash</span>
-                                </li>
-                            </ul>
-                        </div>
-                        <button class="take-info-btn-3">Batafsil ma'lumot olish</button>
-                    </div>
-                </li>
-            </ul>
-            <h1 class="price-course-info">*NARXLAR 2 OY TO’LIQ KURS UCHUN KO’RSATILGAN</h1>
-        </div>
-    </div>
-
-    <div class="smm-info-div">
-        <div class="container">
-            <div class="smm-info">
-                <div class="info-left">
-                    <h1 class="smm-info-h1">SAYT ORQALI RO’YHATDAN <br> OTGANLAR UCHUN SMM MINI <br> KURSI SOVG’AGA BERILADI</h1>
-                    <a class="take-info-btn" href="https://t.me/Sakhibzhan">Batafsil ma'lumot olish</a>
                 </div>
-                <img src="img/smm.png" alt="Smm Mini Kursi" width="534" height="375">
-            </div>
-        </div>
-    </div>
-
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-info-wrapper">
-                <h1 class="online-edu">2023 ONLINE EDU</h1>
-
-                <a class="online-edu-link" href="tel:+998916885704">Menedjer bilan bog'lanish</a>
-            </div>
-        </div>
-    </footer>
-    
-    <script src="js/app.js"></script>
-</body>
-</html>
+                
+                <div class="course-details">
+                    <div class="container-2">
+                        <h1 class="course-details-h1">KURS TAFSILOTLARI</h1>
+                        <ul class="course-details-ul">
+                            <li class="course-details-li">
+                                <div class="course-details-box">
+                                    <div class="course-info-ul-wrapper">
+                                        <h1 class="course-status">Standart</h1>
+                                        <ul class="course-info-ul">
+                                            <li class="course-info-li">
+                                                <span class="course-info">8 haftalik online darslik</span>
+                                            </li>
+                                            <li class="course-info-li">
+                                                <span class="course-info">Uy ishlari berish</span>
+                                            </li>
+                                            <li class="course-info-li">
+                                                <span class="course-info">Kurs davomida savol javob uchun <br> telegram umumiy guruhga qo’shish</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <a href="https://t.me/Sakhibzhan" class="take-info-btn-1">Batafsil ma'lumot olish</a>
+                                </div>
+                            </li>
+                            <li class="course-details-li">
+                                <div class="course-details-box">
+                                    <div class="course-info-ul-wrapper">
+                                        <h1 class="course-status-2">Premium</h1>
+                                        <ul class="course-info-ul">
+                                            <li class="course-info-li opacity-06">
+                                                <span class="course-info">8 haftalik online darslik</span>
+                                            </li>
+                                            <li class="course-info-li opacity-06">
+                                                <span class="course-info">Uy ishlari berish</span>
+                                            </li>
+                                            <li class="course-info-li opacity-06">
+                                                <span class="course-info">Kurs davomida savol javob uchun <br> telegram umumiy guruhga qo’shish</span>
+                                            </li>
+                                            <li class="course-info-li">
+                                                <span class="course-info">Guruh uchun alohida kuratorlar <br> biriktirish</span>
+                                            </li>
+                                            <li class="course-info-li">
+                                                <span class="course-info">Har hafta jonli efirlar o’tkazish</span>
+                                            </li>
+                                            <li class="course-info-li">
+                                                <span class="course-info">Kurs so’ngida sertifikat qo’lga kiritish</span>
+                                            </li>
+                                            <li class="course-info-li">
+                                                <span class="course-info">Kurs foyda bermasa 30 kunda pulni <br> qaytarib berish</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <a href="https://t.me/Sakhibzhan" class="take-info-btn-2">Batafsil ma'lumot olish</a>
+                                </div>
+                            </li>
+                            <li class="course-details-li">
+                                <div class="course-details-box">
+                                    <div class="course-info-ul-wrapper">
+                                        <h1 class="course-status-3">Vip</h1>
+                                        <ul class="course-info-ul">
+                                            <li class="course-info-li opacity-06">
+                                                <span class="course-info">8 haftalik online darslik</span>
+                                            </li>
+                                            <li class="course-info-li opacity-06">
+                                                <span class="course-info">Uy ishlari berish</span>
+                                            </li>
+                                            <li class="course-info-li opacity-06">
+                                                <span class="course-info">Kurs davomida savol javob uchun <br> telegram umumiy guruhga qo’shish</span>
+                                            </li>
+                                            <li class="course-info-li opacity-06">
+                                                <span class="course-info">Guruh uchun alohida kuratorlar <br> biriktirish</span>
+                                            </li>
+                                            <li class="course-info-li opacity-06">
+                                                <span class="course-info">Har hafta jonli efirlar o’tkazish</span>
+                                            </li>
+                                            <li class="course-info-li opacity-06">
+                                                <span class="course-info">Kurs so’ngida sertifikat qo’lga kiritish</span>
+                                            </li>
+                                            <li class="course-info-li opacity-06">
+                                                <span class="course-info">Kurs foyda bermasa 30 kunda pulni <br> qaytarib berish</span>
+                                            </li>
+                                            <li class="course-info-li">
+                                                <span class="course-info">Shaxsan o’zim bilan bir haftada bir jonli <br> efir</span>
+                                            </li>
+                                            <li class="course-info-li">
+                                                <span class="course-info">Kurs tugaganidan so’ng ham 1 oylik <br> kuratorlar bilan ishlash</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <a href="https://T.me/Sakhibzhan" class="take-info-btn-3">Batafsil ma'lumot olish</a>
+                                </div>
+                            </li>
+                        </ul>
+                        <h1 class="price-course-info">*NARXLAR 2 OY TO’LIQ KURS UCHUN KO’RSATILGAN</h1>
+                    </div>
+                </div>
+                
+                <div class="smm-info-div">
+                    <div class="container">
+                        <div class="smm-info">
+                            <div class="info-left">
+                                <h1 class="smm-info-h1">SAYT ORQALI RO’YHATDAN OTGANLAR UCHUN SMM MINI KURSI SOVG’AGA BERILADI</h1>
+                                <a class="take-info-btn" href="https://t.me/Sakhibzhan">Batafsil ma'lumot olish</a>
+                            </div>
+                            <img class="smm-img" src="img/smm.png" alt="Smm Mini Kursi" width="534" height="375">
+                        </div>
+                    </div>
+                </div>
+                
+                <footer class="footer">
+                    <div class="container">
+                        <div class="footer-info-wrapper">
+                            <h1 class="online-edu">2023 ONLINE EDU</h1>
+                            
+                            <a class="online-edu-link" href="tel:+998916885704">Menedjer bilan bog'lanish</a>
+                        </div>
+                    </div>
+                </footer>
+                
+                <script src="js/app.js"></script>
+            </body>
+            </html>
