@@ -1,0 +1,136 @@
+@media (max-width: 640px) {
+    
+    .container {
+        max-width: 640px;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .head-right-li-a-1 {
+        margin: 0;
+        border: 0;
+        padding: 0;
+        color: #fff;
+        font-size: 16px;
+        text-decoration: underline;
+        /* padding: 1rem 1.5rem;
+        border-radius: 0.75rem;
+        border: 1px solid #fff; */
+    }
+    
+    .take-info-btn {
+        top: 1056px;
+    }
+    
+    .info-h1 {
+        margin: 0;
+        padding: 0;
+        font-size: 36px;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-style: normal;
+        line-height: 110%;
+        letter-spacing: 2.92px;
+        --tw-text-opacity: 1;
+        color: rgb(255 255 255/var(--tw-text-opacity));
+    }
+    
+    .hero {
+        padding-bottom: 130px;
+    }
+    
+    .main-starter-li {
+        max-width: 286px;
+    }
+    
+    .main-hero-li {
+        max-width: 286px;
+        max-height: 293px;
+    }
+    
+    .main-hero-li:nth-child(4) {
+        margin-bottom: 30px;
+    }
+    
+    .main-hero-li:nth-child(5) {
+        margin-bottom: 30px;
+    }
+    
+    .main-hero-li:nth-child(6) {
+        margin-bottom: 30px;
+    }
+    
+    .main-center-img {
+        width: 252px;
+        height: 200px;
+        object-fit: cover;
+    }
+    
+    .main-center-box {
+        width: 252px!important;
+        height: 163px!important;
+    }
+    
+    .what-learn-ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .what-learn-li {
+        max-width: 592px;
+        max-height: 220px;
+        width: 592px;
+    }
+    
+    .speakers-ul {
+        justify-content: center;
+    }
+    
+    .speakers-li {
+        margin-right: 3px;
+    }
+    
+    .moduls-li {
+        max-width: 286px;
+    }
+    
+    .course-details-box {
+        max-width: 286px;
+    }
+    
+    .course-info-ul-wrapper {
+        max-width: 236px;
+    }
+    
+    .smm-info {
+        flex-direction: column;
+    }
+    
+    .smm-info-h1 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .smm-img-1 {
+        width: 568px;
+        height: 400px;
+        display: block;
+    }
+
+    .smm-img {
+        display: none;
+    }
+
+    .take-info-btn-footer {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .info-left {
+        align-items: normal;
+    }
+}

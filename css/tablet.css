@@ -6,7 +6,7 @@
         margin-left: auto;
         margin-right: auto;
     }
-
+    
     .hero {
         display: flex;
         flex-wrap: wrap;
@@ -14,7 +14,7 @@
         background-image: none;
         justify-content: center;
     }
-
+    
     .hero-left {
         display: flex;
         text-align: center;
@@ -22,14 +22,238 @@
         flex-direction: column;
         justify-content: center;
     }
-
+    
     .hero-right {
         width: 720px;
         height: 630px;
+        position: relative;
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
         background-image: url(/img/saxib-axmatov\ \(2\).png);
     }
+    
+    .take-info-btn-head {
+        top: 1170px;
+        position: absolute;
+    }
+    
+    .main-starter-ul {
+        flex-wrap: wrap;
+    }
+    .main-starter-li {
+        width: 350px;
+        max-width: 350px;
+        margin-bottom: 20px;
+    }
+    
+    .main-starter-li:nth-child(3) {
+        margin-bottom: 0;
+    }
+    .main-starter-li:nth-child(4) {
+        margin-bottom: 0;
+    }
+    
+    .main-hero-ul {
+        flex-wrap: wrap;
+    }
+    
+    .main-hero-li {
+        max-width: 350px;
+        max-height: 293px;
+    }
+    
+    .main-hero-li:nth-child(5) {
+        margin-bottom: 0;
+    }
+    
+    .main-hero-li:nth-child(6) {
+        margin-bottom: 0;
+    }
 
+    .main-center-ul {
+        align-items: normal;
+    }
+    
+    .main-center-li {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+    }
+    
+    .main-center-box {
+        width: 316px;
+        /* max-height: 126px; */
+        width: 316px;
+        height: 126px;
+        margin-right: 0;
+        
+    }
+    
+    .main-center-img {
+        display: none;
+    }
+    
+    .main-center-img-1 {
+        display: block;
+        width: 316px;
+        height: 200px;
+        object-fit: cover;
+        margin-bottom: 0.75rem;
+    }
+    
+    .author-video-link {
+        display: block;
+    }
+    
+    .author-video {
+        display: none;
+    }
+    
+    .portfolio-project {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .project {
+        width: 720px;
+        height: 400px;
+        object-fit: cover;
+        margin-bottom: 1.25rem;
+    }
+    
+    .project-1 {
+        width: 350px;
+        height: 242px;
+        object-fit: cover;
+    }
+    
+    .what-learn-ul {
+        max-width: 720px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .what-learn-li {
+        max-height: 275px;
+        max-width: 350px;
+    }
+    
+    .student-video {
+        width: 350px;
+        height: 452px;
+    }
+    
+    .students-idea-li:nth-child(3) {
+        display: none;
+    }
+    
+    .speakers-ul {
+        flex-wrap: wrap;
+    }
+    
+    .speakers-li {
+        margin-bottom: 1.25rem;
+    }
+    
+    .speakers-li:last-child {
+        margin-bottom: 0;
+    }
+    
+    .moduls-li {
+        margin-right: 1.25rem;
+    }
+    
+    .moduls-li:last-child {
+        margin-right: 0;
+    }
+    
+    .course-details-li {
+        height: auto;
+    }
+    
+    .course-details-box {
+        max-width: 350px;
+        height: 1066px;
+    }
+    
+    .container-2 {
+        max-width: 1438px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .take-info-btn-1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.625rem;
+        align-self: stretch;
+        border-radius: 1rem;
+        padding: 1.25rem;
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+        font-weight: 500;
+        font-style: normal;
+        line-height: normal;
+        --tw-text-opacity: 1;
+        color: rgb(255 255 255/var(--tw-text-opacity));
+    }
+    
+    .take-info-btn-2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.625rem;
+        align-self: stretch;
+        border-radius: 1rem;
+        padding: 1.25rem;
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+        font-weight: 500;
+        font-style: normal;
+        line-height: normal;
+        --tw-text-opacity: 1;
+        background-color: #6850ff;
+        color: rgb(255 255 255/var(--tw-text-opacity));
+    }
+    
+    .take-info-btn-3 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.625rem;
+        align-self: stretch;
+        border-radius: 1rem;
+        padding: 1.25rem;
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+        font-weight: 500;
+        font-style: normal;
+        line-height: normal;
+        --tw-text-opacity: 1;
+        background-color: #DF1381;
+        color: rgb(255 255 255/var(--tw-text-opacity));
+    }
+    
+    .smm-img {
+        width: 328px;
+        height: 230px;
+        display: block;
+    }
+    
+    .take-info-btn-footer {
+        letter-spacing: .8px;
+        line-height: normal;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.25rem;
+        padding-left: 3.5rem;
+        padding-right: 3.5rem;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        border-radius: 20px;
+    }
 }
