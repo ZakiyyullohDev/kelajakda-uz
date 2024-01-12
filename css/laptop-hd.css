@@ -55,6 +55,10 @@
         width: 229px;
     }
 
+    .what-learn-ul {
+        justify-content: center;
+    }
+
     .what-learn-li {
         max-height: 275px;
     }
